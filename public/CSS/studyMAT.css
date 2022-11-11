@@ -1,0 +1,257 @@
+
+
+#kh {
+    height: 80px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15px;
+}
+
+
+#navbar-brand-small{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 165px;
+    top: 118px;
+}
+
+
+body{
+    background-color: #704F4F;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.navbar {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 75px;
+    font-size: 20px;
+}
+
+
+#subjects{
+    margin: 25px;
+    padding: 30px;
+}
+.subject-box{
+    width: 270px;
+    height: 220px;
+    border-radius: 25px;
+    background-color: red;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 15px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+}
+
+.subject-box:hover{
+    transform: scale(1.1);
+}
+
+.libtn {
+    width: 210px;
+    height: 50px;
+    font-size: x-large;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.libtn-txt{
+    transition: all 300ms;
+}
+
+.libtn:hover .libtn-txt{
+    text-shadow: 0 0 5px blue,
+                 0 0 10px blue,
+                 0 0 15px blue;
+    transform: scale(1.05);
+    color: #fff; 
+}
+.libtn:hover{
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transform: scale(1.1);
+}
+
+#userOptions{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: #fff;
+    transition: all 300ms;
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transition: transform 300ms;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+}
+
+#userOptions:hover{
+    transform: scale(1.1);
+}
+
+#dpdmnu{
+    width: 80px;
+    text-align: center;
+}
+
+#elec{
+    left: 220px;
+    top: 175px;
+    background-color: #0CBABA;
+}
+#elec:hover{
+    animation: elechov 100ms ease-in-out forwards;
+}
+#maths{
+    left: 640px;
+    top: 175px;
+    background-color: #FAF398;
+}
+#maths:hover{
+    animation: mathshov 100ms ease-in-out forwards;
+}
+#se{
+    left: 1060px;
+    top: 175px;
+    background-color: #FBAED2;
+}
+#se:hover{
+    animation: sehov 100ms ease-in-out forwards;
+}
+#co{
+    left: 430px;
+    top: 450px;
+    background-color: #acdf87;
+}
+#co:hover{
+    animation: cohov 100ms ease-in-out forwards;
+}
+#afl{
+    left: 850px;
+    top: 450px;
+    background-color: #E97451;
+}
+#afl:hover{
+    animation: aflhov 100ms ease-in-out forwards;
+}
+
+
+@keyframes elechov {
+    0%{
+        background-image: linear-gradient(225deg,#0CBABA 98%, #4066E0 99%,  #38008b 100%);
+        
+    }
+    25%{
+        background-image: linear-gradient(225deg,#0CBABA 74%,#4066E0 90%, #38008b 100%);
+    }
+    50%{
+        background-image: linear-gradient(225deg,#0CBABA 56%,#4066E0 86%, #38008b 100%);
+        
+    }
+    75%{
+        background-image: linear-gradient(225deg,#0CBABA 35%,#4066E0 76%, #38008b 100%);
+    }
+    100%{
+        background-image: linear-gradient(225deg,#0CBABA 21%, #4066E0 65%,#38008b 100%);
+        
+    }
+}
+
+
+
+@keyframes mathshov {
+    0%{
+        background-image: linear-gradient(225deg,#FAF398 98%, #E0AA3E 99%,  #926F34 100%);
+        
+    }
+    25%{
+        background-image: linear-gradient(225deg,#FAF398 74%,#E0AA3E 90%, #926F34 100%);
+    }
+    50%{
+        background-image: linear-gradient(225deg,#FAF398 56%,#E0AA3E 86%, #926F34 100%);
+        
+    }
+    75%{
+        background-image: linear-gradient(225deg,#FAF398 35%,#E0AA3E 76%, #926F34 100%);
+    }
+    100%{
+        background-image: linear-gradient(225deg,#FAF398 21%, #E0AA3E 65%,#926F34 100%);
+        
+    }
+}
+@keyframes sehov {
+    0%{
+        background-image: linear-gradient(225deg,#FBAED2 98%, #EC5578 99%,  #E0115F 100%);
+        
+    }
+    25%{
+        background-image: linear-gradient(225deg,#FBAED2 74%,#EC5578 90%, #E0115F 100%);
+    }
+    50%{
+        background-image: linear-gradient(225deg,#FBAED2 56%,#EC5578 86%, #E0115F 100%);
+        
+    }
+    75%{
+        background-image: linear-gradient(225deg,#FBAED2 35%,#EC5578 76%, #E0115F 100%);
+    }
+    100%{
+        background-image: linear-gradient(225deg,#FBAED2 21%, #EC5578 65%,#E0115F 100%);
+        
+    }
+}
+@keyframes cohov {
+    0%{
+        background-image: linear-gradient(225deg,#acdf87 98%, #4c9a2a 99%,  #1e5631 100%);
+        
+    }
+    25%{
+        background-image: linear-gradient(225deg,#acdf87 74%,#4c9a2a 90%, #1e5631 100%);
+    }
+    50%{
+        background-image: linear-gradient(225deg,#acdf87 56%,#4c9a2a 86%, #1e5631 100%);
+        
+    }
+    75%{
+        background-image: linear-gradient(225deg,#acdf87 35%,#4c9a2a 76%, #1e5631 100%);
+    }
+    100%{
+        background-image: linear-gradient(225deg,#acdf87 21%, #4c9a2a 65%,#1e5631 100%);
+        
+    }
+}
+@keyframes aflhov {
+    0%{
+        background-image: linear-gradient(225deg,#E97451 98%, #A52A2A 99%,  #800020 100%);
+        
+    }
+    25%{
+        background-image: linear-gradient(225deg,#E97451 74%,#A52A2A 90%, #800020 100%);
+    }
+    50%{
+        background-image: linear-gradient(225deg,#E97451 56%,#A52A2A 86%, #800020 100%);
+        
+    }
+    75%{
+        background-image: linear-gradient(225deg,#E97451 35%,#A52A2A 76%, #800020 100%);
+    }
+    100%{
+        background-image: linear-gradient(225deg,#E97451 21%, #A52A2A 65%,#800020 100%);
+        
+    }
+}

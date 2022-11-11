@@ -1,0 +1,166 @@
+body {
+    background-color: #D7CEC7;
+    font-family: "ubuntu", sans-serif;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15px;
+}
+
+
+
+
+
+/*-----------------------------------INTRO-SECTION---------------------------------------*/
+
+#kh {
+    height: 80px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+#navbar-brand-small{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 165px;
+    top: 118px;
+}
+
+
+#intro-section{
+    background-color: #704F4F;
+}
+
+#intro-div{
+    text-align: center;
+    padding: 20px 60px;
+    font-family: 'Satisfy', cursive;
+}
+
+#intro-div h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+#intro-div h1 #NAME {
+    font-size: 8rem;
+    color: #fff;
+    text-shadow: 0 0 30px #B40230;
+}
+
+#intro-div #kwb{
+    text-shadow: 0 0 15px #FAFA33;
+}
+.navbar-brand{
+    font-size: 45px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 75px;
+    font-size: 20px;
+}
+
+.libtn {
+    width: 180px;
+    height: 40px;
+    font-size: large;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.libtn-txt{
+    transition: all 300ms;
+}
+
+.libtn:hover .libtn-txt{
+    text-shadow: 0 0 5px blue,
+                 0 0 10px blue,
+                 0 0 15px blue;
+    transform: scale(1.05);
+    color: #fff; 
+}
+.libtn:hover{
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transform: scale(1.1);
+}
+
+#userOptions{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: #fff;
+    transition: all 300ms;
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transition: transform 300ms;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+}
+
+#userOptions:hover{
+    transform: scale(1.1);
+}
+
+#dpdmnu{
+    width: 80px;
+    text-align: center;
+}
+
+
+
+
+
+/*-----------------------------------BOOK-SECTION---------------------------------------*/
+
+#videos{
+    background-color: #D7CEC7;
+    margin: 7px 15px;
+}
+.videolist{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.card{
+    margin: 7px 20px;
+    padding: 10px;
+}
+
+.card img{
+    height: 270px;
+}
+
+.card h5{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.card .btn{
+    width: 90%;
+    transition: all 200ms ease-in-out;
+}
+.card .btn:hover{
+    transform: scale(1.1);
+}
+
+/*-----------------------------------FOOTER-SECTION---------------------------------------*/
+
+
+#footer {
+    background-color: #704F4F;
+    text-align: center;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+}
+

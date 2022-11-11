@@ -1,0 +1,133 @@
+
+
+#kh {
+    height: 80px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15px;
+}
+
+
+#navbar-brand-small{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 165px;
+    top: 118px;
+}
+
+
+body{
+    background-color: #704F4F;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.navbar {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 75px;
+    font-size: 20px;
+}
+
+
+#subjects{
+    margin: 25px;
+    padding: 30px;
+}
+.subject-box{
+    width: 270px;
+    height: 220px;
+    border-radius: 25px;
+    background-color: red;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 15px;
+    position: absolute;
+    transition: transform 200ms ease-in-out;
+}
+
+.subject-box:hover{
+    transform: scale(1.1);
+}
+
+.libtn {
+    width: 210px;
+    height: 50px;
+    font-size: x-large;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.libtn-txt{
+    transition: all 300ms;
+}
+
+.libtn:hover .libtn-txt{
+    text-shadow: 0 0 5px blue,
+                 0 0 10px blue,
+                 0 0 15px blue;
+    transform: scale(1.05);
+    color: #fff; 
+}
+.libtn:hover{
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transform: scale(1.1);
+}
+
+#userOptions{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: xx-large;
+    color: #fff;
+    transition: all 300ms;
+    border: 1px solid #fff;
+    background-color: #3C1321;
+    transition: transform 300ms;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+}
+
+#userOptions:hover{
+    transform: scale(1.1);
+}
+
+#dpdmnu{
+    width: 80px;
+    text-align: center;
+}
+ 
+#videoframe{
+    text-align: center;
+}
+
+#videoframe h1{
+    font-size: 100px;
+    font-family: 'satisfy', cursive;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 15px #FAFA33;
+}
+
+#nuy{
+    font-size: 7rem;
+    font-family: 'satisfy', cursive;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 0 0 15px #FAFA33;
+    text-align: center;
+
+}

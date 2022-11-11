@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="CSS/studyMAT.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@500&family=Cookie&family=Dancing+Script:wght@600&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Study Material</title>
+    
+</head>
+
+<body>
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        
+        <img src="images/Logo1.png" alt="_logo" id="kh">
+        <p class="navbar-brand">Knowledge Hub</p><br>
+        <small id="navbar-brand-small">by IIIT Sonepat</small>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <form action="/spage" method="post">
+                        <button class="btn libtn" type="submit">
+                            <p class="libtn-txt">HomePage</p> 
+                        </button>   
+                    </form>                                                    
+                </li>                        
+                <li class="nav-item dropdown">
+                    <button class="nav-link btn" id="userOptions" data-toggle="dropdown">
+                        <p id="uo-text">                                
+                            <%= name[0].charAt(0) + name[1].charAt(0) %>
+                          </p>
+                    </Button>
+                    <div class="dropdown-menu" id="dpdmnu">
+                      <form action="/logout" method="post">
+                        <% let usr = "student"; %>
+                        <button class="dropdown-item" type="submit" name="usr" value="<%= usr %>">Logout</button>
+                      </form>                                
+                    </div>
+                </li>              
+            </ul>
+        </div>        
+        
+    </nav>                
+    </nav>
+    <div id="subjects">
+        <form action="/materials" method="post">
+            <button class="subject-box" id="elec" type="submit" name="sbjct" value="Electronics">
+                <br><br>
+                Electronics
+            </button>
+            <button class="subject-box" id="maths" type="submit" name="sbjct" value="Maths">
+                <br><br>
+                Maths
+            </button>
+            <button class="subject-box" id="se" type="submit" name="sbjct" value="SE">
+                <br>
+                Software Engineering
+            </button>
+            <button class="subject-box" id="co" type="submit" name="sbjct" value="CO">
+                <br>
+                Computer Organistion
+            </button>
+            <button class="subject-box" id="afl" type="submit" name="sbjct" value="AFL">
+                <br><br>
+                TOC
+            </button>  
+        </form>        
+    </div>
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+

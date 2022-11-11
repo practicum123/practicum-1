@@ -1,0 +1,65 @@
+
+
+#kh {
+    height: 80px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+#navbar-brand-small{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 145px;
+    top: 88px;
+}
+
+
+body{
+    background-color: #704F4F;
+}
+
+#Message{
+    text-align: center;
+    padding: 20px 60px;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    left: 10px;
+}
+
+#Message h1 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+#Message h1 span {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+
+#cnfboy{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 750px;
+    width: 450px;
+}
+
+
+.navbar-brand{
+    font-size: 45px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar {
+    padding: 20px 40px 25px;
+    font-size: 20px;
+}
+
+#return{
+    position: absolute;
+    left: 30%;
+    bottom: 60px;
+}
+
